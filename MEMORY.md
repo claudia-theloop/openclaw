@@ -662,6 +662,34 @@ LogEntry {
 - Session memory: Enabled and tracking
 - Last verified: 2026-03-01 21:42 GMT-5
 
+## Linear Integration Status (2026-03-01 23:45)
+🎉 **LINEAR MULTI-WORKSPACE SYSTEM OPERATIONAL**
+- **Linear Skill**: Installed at `/Users/claudia/.openclaw/workspace/skills/linear/`
+- **Authentication**: Multi-workspace system with linear-auth.sh
+- **Workspaces**: 2 active (Velvet Reads, Pickster)
+
+### Linear ↔ Slack Mapping (FINAL)
+| Project | Linear Workspace | Team Key | Slack Channel | Status |
+|---------|------------------|----------|---------------|--------|
+| **Velvet Reads** | `velvetreads` | VR | #velvet-reads (C0AEU780UA3) | ✅ Active |
+| **Pickster** | `pickster-app` | PCK | #pickster (C0AF9LGKQGJ) | ✅ Active |
+| **Polly** | TBD | TBD | #polly (C0AG07E534P) | ⏳ TBD |
+
+### API Keys Configuration
+- **VR (Velvet Reads)**: `LINEAR_API_KEY_VELVETREADS` (in .env)
+- **PCK (Pickster)**: `LINEAR_API_KEY_PICKSTER` (in .env)
+- **Switching**: Use `linear-auth.sh use <workspace>` or workspace prefix in commands
+
+**Velvet Reads Status** (17 issues):
+- Completed: 11 ✅ | Canceled: 5 ❌ | In Progress: 0 | Pending: 0
+- Completion rate: 65%
+- Primary assignee: Richard (richard.leiva@theloop.team)
+
+**Pickster Status** (active team PCK):
+- Team detected: Pickster Team (PCK)
+- Issues visible: Multiple states (Todo, In Progress, Backlog)
+- Assignees: German, Paulo, others
+
 ---
 
 *This file is updated periodically as I learn and experience new things with the team.*
