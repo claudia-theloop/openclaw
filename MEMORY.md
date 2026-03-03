@@ -640,6 +640,24 @@ LogEntry {
 - ✅ API key tested + verified working (18:55)
 - ✅ Confirmed Gemini models available (gemini-2.0-flash, etc.)
 
+## World Cup 2026 Implementation (2026-03-02)
+- **Code Status**: 70-80% complete on feature/RL-worldcup branch
+- **Database**: Multi-sport schema implemented (sport, competition_type, period_type, season groups)
+- **API Endpoints**: Reference, tournament, monetization endpoints working
+- **Soccer Scoring**: Full-time score only (90 mins), no own-goal/red-card logic, no penalties in ET
+- **Bracket**: Auto-advancement needed for knockout stages
+- **Missing**: Test suite, data validation job, rollback logic, real fixture testing
+- **19 New Linear Issues Created**:
+  - 9 World Cup API issues (assigned to Germán)
+  - 10 Website issues (awaiting Paulo's Linear access)
+
+## Website World Cup Milestone (2026-03-02)
+- **New website**: Completely fresh build for World Cup 2026 promotion
+- **Features**: Localization (EN/ES), geolocation language detection, live standings, pool creation, responsive design
+- **Owner**: Paulo (once he accepts Linear invitation)
+- **Critical Path**: PCK-45 (Localization Infrastructure) - foundation for all other pages
+- **Timeline**: March/April 2026 (before June tournament start)
+
 ## Setup Progress (2026-03-01 - COMPLETE ✅)
 - ✅ Revoked compromised API key (18:32 incident)
 - ✅ Generated new API key 
@@ -653,6 +671,58 @@ LogEntry {
 - ✅ **Gemini embeddings OPERATIONAL** (21:42)
 - ✅ **Hybrid search VERIFIED** (semantic 70%, keyword 30%)
 - ✅ **Memory search tested and working** (21:42)
+
+## The Loop | Weekly Check-in Meeting (2026-03-02 - LAUNCHED ✅)
+**Recurring Team Standup Meeting - Created & Operational**
+
+### Meeting Details
+- **Name:** The Loop | Weekly Check-in
+- **Schedule:** Every Monday at 8:30 PM (America/Guayaquil - Ecuador time)
+- **Duration:** 1 hour
+- **Recurrence:** Indefinite (all Mondays)
+- **First Instance:** March 2, 2026 (TODAY)
+
+### Google Meet Details
+- **Meeting Link:** https://meet.google.com/doy-fpxq-zdo
+- **Meet Code:** doy-fpxq-zdo
+- **Dial-in:** +1 401-552-4012 (PIN: 192853024)
+- **Organizer:** claudia@theloop.team
+
+### Attendees (All Invited & Notified)
+- richard.leiva@theloop.team ✅
+- paulo.guerra@theloop.team ✅
+- david.bergmann@theloop.team ✅
+- german.villacreces@theloop.team ✅
+
+### Permissions
+- ✅ **Guests can modify:** YES (anyone can edit the event)
+- ✅ **Guests can invite:** YES (anyone can add participants)
+- ✅ **Guests can manage:** YES (no dependency on Claudia for access control)
+
+### Purpose
+Weekly team sync to:
+- Update on each project status
+- Define priorities
+- Assign specific tasks
+- Align across initiatives
+
+### Setup Used
+- **Tool:** gog (Google Workspace CLI by Peter Steinberger)
+- **Skill:** Installed from clawhub (configuration: 2026-03-02 19:15 GMT-5)
+- **Method:** `gog calendar create` with OAuth2 via claudia@theloop.team
+
+### Team Notification
+- ✅ Announced in #general-team-loop (channel C0AF80V8P6J) with @channel
+- ✅ All team members have received calendar invitations
+- ✅ Email notifications sent
+
+---
+
+## Current Monitoring Tasks (2026-03-02)
+- ⏳ **Paulo's Linear Access**: Waiting for acceptance of Pickster workspace invitation
+  - Message sent to #pickster (08:01 GMT-5) with all context
+  - Will follow up by noon GMT-5 if not accepted
+  - Once accepted → immediately assign PCK-44 to PCK-53 (10 website issues)
 
 ## Memory System Status
 🎉 **FULLY OPERATIONAL**
